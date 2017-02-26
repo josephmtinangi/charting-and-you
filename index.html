@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Charting and You</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style>
+		body {
+			padding-top: 30px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="col-sm-2 hidden-sm hidden-xs">
+			<div class="list-group">
+				<a href="#" class="list-group-item active">Item 1</a>
+				<a href="#" class="list-group-item">Item 2</a>
+				<a href="#" class="list-group-item">Item 3</a>
+			</div>
+		</div>
+		<div class="col-sm-10">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<h3 class="panel-title">Line Chart</h3>
+						</div>
+						<div class="panel-body">
+							<canvas id="lineChart" width="400" height="200"></canvas>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<h3 class="panel-title">Bar Chart</h3>
+						</div>
+						<div class="panel-body">
+							<canvas id="barChart" width="400" height="200"></canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<h3 class="panel-title">Radar Chart</h3>
+						</div>
+						<div class="panel-body">
+							<canvas id="radarChart" width="400" height="200"></canvas>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<h3 class="panel-title">Polar Chart</h3>
+						</div>
+						<div class="panel-body">
+							<canvas id="polarChart" width="400" height="200"></canvas>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<h3 class="panel-title">Pie Chart</h3>
+						</div>
+						<div class="panel-body">
+							<canvas id="pieChart" width="400" height="200"></canvas>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<h3 class="panel-title">Doughnut Chart</h3>
+						</div>
+						<div class="panel-body">
+							<canvas id="doughnutChart" width="400" height="200"></canvas>
+						</div>
+					</div>
+				</div>
+			</div>					
+		</div>
+	</div>
+
+	<script src="js/Chart.min.js"></script>
+	<script src="/js/app.js"></script>
+	
+</body>
+</html>
